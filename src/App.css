@@ -1,0 +1,191 @@
+.App {
+  height: 200vh;
+  background-color: rgb(246, 246, 120);
+  padding: 50px;
+  position: relative;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grow1 {
+  flex: 1
+}
+
+.grow3 {
+  flex: 3
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-50{
+    padding: 50px
+}
+
+.text-center {
+  text-align: center;
+}
+
+.toolbar {
+  background-color: skyblue;
+  border-radius: 5px;
+  padding: 10px; 
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.toolbar a {
+  margin: 100px;
+  text-decoration: none;
+  font-size: 1.2em;
+ 
+}
+
+p {
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.profile {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  
+}
+ 
+.profile-change { 
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+/* .profile-change img {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.profileUser img{
+  width: 250px;
+  height: 250px;
+}
+
+.userCard img {
+  width: 250px;
+  height: 250px;
+} */
+
+img {
+   width: 250px;
+  height: 250px;
+}
+
+.input-change {
+  height: 300px;
+  width: 320px;
+  margin: auto;
+}
+
+input {
+  background-color: skyblue;  
+  margin: 10px ;
+  padding: 0.5em;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+button {
+  margin: 0 8px;
+  padding: 0.3em;
+  width: 180px;
+}
+
+.register {
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  
+}
+
+.login-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.userCard {
+  margin-right: 30px;
+}
+
+.conversations {
+  margin: 20px;
+}
+
+.messageCard {
+  background-color: lightcyan;
+  cursor: pointer;
+  margin: 30px auto;
+  padding: 20px;
+  font-size: 1.3em;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px #4bbfbf;
+  width: 640px;
+  
+}
